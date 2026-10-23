@@ -1,0 +1,23 @@
+This is a Chatbot which is made using RAG pipeline Architecture
+
+The process goes this way:
+
+1) download an Open source LLM Model.
+2) Use any API key of web scrapers 
+3) Download an open source embedding Model
+4) Now the data must be soruced from the api key as per the request 
+5) then chunking is done, dividing large paras into small sentences as if they do not do it, then embedding the whole data decreases the quality of the content
+6) Embedding is the process of converting text into vectors and then distribute in vector space according to their semantic meaning 
+7) what happens during ingestion?
+    - load documents ()
+
+
+#there are two types of RAG Models
+
+1) Pre-ingestion Model (pre ingest the data)
+2) Real Time Model (retrieves data in the real time)
+
+###In this project we are going to use the Real Time model 
+
+#might try to use the api of some well known models just for testing 
+# so for testing we will not be using too many tokens 
